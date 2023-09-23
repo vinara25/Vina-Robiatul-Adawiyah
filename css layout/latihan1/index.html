@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CSS Display</title>
 	<style>
-			a {
-				background-color: pink;
-			}
-			.main {width: 600px;
-				background-color: lightblue;
-			}
-			.main h2 {
-				background-color: pink;
-			}
-
+		.navigasi li {
+			display: inline;
+		}
 	</style>
 </head>
 <body>
 	<div class="header">
 		<h1>Selamat Datang Di Website Kami</h1>
 	</div>
-
+	
 	<div class="navigasi">
 		<h2>Daftar Link</h2>
-		<a href="#">link 1</a>
-		<a href="#">link 2</a>
-		<a href="#">link 3</a>
-		<a href="#">link 4</a>
-		<a href="#">link 5</a>
+		<ul>
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+			<li><a href="#">Link 4</a></li>
+			<li><a href="#">Link 5</a></li>
+		</ul>
+
 	</div>
 
 	<div class="main">
@@ -36,7 +30,7 @@
 		<img src="univraharja.png">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		quis <span>nostrud exercitation ullamco </span>laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -44,12 +38,15 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat.</p>
-	</div>
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
 
 	<div class="copyright">
-	<p>Copyright 2023, Web Programming Raharja.</p>
+		<p>Copyright 2015. Web Programming UNPAS.</p>
 	</div>
+
 
 </body>
 </html>
